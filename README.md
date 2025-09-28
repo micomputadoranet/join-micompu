@@ -1,10 +1,10 @@
-# ---► English ◄---
+ ---► English ◄---
 
 # Mi-Computadora.Net
 
 ## 🌐 About the Project
 
-This is the main landing page of **Mi-Computadora.Net**, the digital home of the **#Micompu System** project.
+This is the main landing page of **Mi-Computadora.Net**, the welcome entry gateway to the **#Micompu System** project.
 
 ## 🔗 Connect With Us
 
@@ -19,7 +19,7 @@ Explore our portfolio of technology solutions that might interest you:
 
 ## 👥 Join the Community
 
-👉🏻 [Visit this page](https://git.mi-computadora.net){:target="_blank"}
+<a href="https://git.mi-computadora.net" target="_blank" rel="noopener noreferrer">👉🏻 Visit this page!</a>
 
 We're a growing community that becomes stronger every day. We invite you to be part of this project where we share:
 
@@ -32,13 +32,13 @@ We're a growing community that becomes stronger every day. We invite you to be p
 
 🌎 Project developed with the latest web technologies to ensure the best experience.
 
-# ---► Español ◄---
+ ---► Español ◄---
 
 # Mi-Computadora.Net
 
 ## 🌐 Acerca del Proyecto
 
-Landing page principal de **Mi-Computadora.Net**, el hogar digital del proyecto **Sistema #Micompu**.
+Landing page principal de **Mi-Computadora.Net**, la puerta de entrada de bienvenida al proyecto **Sistema #Micompu**.
 
 ## 🔗 Conecta con Nosotros
 
@@ -53,7 +53,7 @@ Explora nuestro portafolio de soluciones tecnológicas que podrían interesarte:
 
 ## 👥 Únete a la Comunidad
 
-👉🏻 [Visita esta página](https://git.mi-computadora.net){:target="_blank"}
+<a href="https://git.mi-computadora.net" target="_blank" rel="noopener noreferrer">👉🏻 ¡Visita esta página!</a>
 
 Somos una comunidad en crecimiento que se fortalece día a día. Te invitamos a ser parte de este proyecto donde compartimos:
 

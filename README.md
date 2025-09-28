@@ -68,4 +68,4 @@ Somos una comunidad en crecimiento que se fortalece día a día. Te invitamos a 
 
 ---
 
-*Última actualización/Last updated: ${new Date().toLocaleDateString('es-ES')}*
+*Última actualización/Last updated: 2025-09-28*

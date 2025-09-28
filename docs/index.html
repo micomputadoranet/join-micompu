@@ -38,8 +38,8 @@
 			                var cp = 'dc9c1c8ca4414d47c20e8ff3fd21a3bb';
 			// Script Google Adsense ↓↓ <script data-ad-client="ca-pub-4603347222669701" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
 		</script>
-		<script type="module" crossorigin src="./assets/index-CS88tlex.js"></script>
-		<link rel="stylesheet" crossorigin href="./assets/index-DkjANkvT.css">
+
+		<link rel="stylesheet" crossorigin href="./assets/index-DkjANkvT.css" />
 	</head>
 
 	<body id="bg-animate">
@@ -47,7 +47,7 @@
 			<div id="menuhead">
 				<div id="logomicompu" class="animated flash">
 					<img src="./assets/mi-computadora-DoK0j4tm.png" />
-					<span class="micompu">Mi-computadora.net</span>  
+					<span class="micompu">Mi-computadora.net</span>
 					<br />
 				</div>
 			</div>
@@ -64,6 +64,7 @@
 						</div>
 						<!-- React Start -->
 						<div id="root"></div>
+						<script type="module" crossorigin src="./assets/index-CS88tlex.js"></script>
 						<!-- React End -->
 					</div>
 				</div>
@@ -86,9 +87,7 @@
 									<div id="modalBody"></div>
 									<div id="modalResp"></div>
 								</div>
-								<div class="modal-footer">
-
-                                </div>
+								<div class="modal-footer"></div>
 							</div>
 						</div>
 					</div>
@@ -107,7 +106,7 @@
 							<h3>Explora</h3>
 							<ul>
 								<li><a href="https://www.mi-computadora.net/" target="_blank">Sitio Web</a></li>
-								<li><a href="https://app.mi-computadora.net/" target="_blank">User Panel</a></li> 
+								<li><a href="https://app.mi-computadora.net/" target="_blank">User Panel</a></li>
 								<li><a href="https://www.mi-computadora.net/tienda/" target="_blank">Tienda Online</a></li>
 							</ul>
 						</div>
@@ -123,10 +122,10 @@
 							<h3>Información</h3>
 							<ul>
 								<li><a href="javascript:;">Términos y Condiciones</a></li>
-								<li><a href="https://www.mi-computadora.net/privacy-policy/" target="_blank">Política de Privacidad</a></li>								
+								<li><a href="https://www.mi-computadora.net/privacy-policy/" target="_blank">Política de Privacidad</a></li>
 							</ul>
-						</div>                        
-					</div>					
+						</div>
+					</div>
 					<div class="row">
 						<hr />
 						© Todos los derechos reservados. “Mi-Computadora.Net”
@@ -138,37 +137,50 @@
 
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
 		<script defer src="https://www.google.com/recaptcha/api.js?render=6LfVMdsZAAAAAMgDNlBn2FJd_B9T-kvcpcNUPKV3">
 			/* contents of a small JavaScript file */
 		</script>
 
-
 		<script type="text/javascript">
-			var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-			(function(){
-			    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-			    s1.async=true;
-			    s1.src='https://embed.tawk.to/58c8ad9697fbd80a94fbba45/default';
-			    s1.charset='UTF-8';
-			    s1.setAttribute('crossorigin','*');
-			    s0.parentNode.insertBefore(s1,s0);
-			})();
-		</script>
 
-		<script>
-			(function(i, s, o, g, r, a, m) {
-			    i['GoogleAnalyticsObject'] = r;
-			    i[r] = i[r] || function() {
-			        (i[r].q = i[r].q || []).push(arguments)
-			    }, i[r].l = 1 * new Date();
-			    a = s.createElement(o),
-			        m = s.getElementsByTagName(o)[0];
-			    a.async = 1;
-			    a.src = g;
-			    m.parentNode.insertBefore(a, m)
-			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-			ga('create', 'UA-92174638-1', 'auto');
-			ga('send', 'pageview');
+			// Esperar a que React esté completamente renderizado
+			        window.addEventListener('load', function() {
+			            // Cargar Tawk.to después de 2 segundos
+			            setTimeout(loadTawkTo, 2000);
+
+			            // Google Analytics puede cargarse antes (es más ligero)
+			            loadGoogleAnalytics();
+			        });
+
+					function loadGoogleAnalytics() {
+			            (function(i, s, o, g, r, a, m) {
+			                i['GoogleAnalyticsObject'] = r;
+			                i[r] = i[r] || function() {
+			                    (i[r].q = i[r].q || []).push(arguments)
+			                }, i[r].l = 1 * new Date();
+			                a = s.createElement(o),
+			                    m = s.getElementsByTagName(o)[0];
+			                a.async = 1;
+			                a.src = g;
+			                m.parentNode.insertBefore(a, m)
+			            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+			            ga('create', 'UA-92174638-1', 'auto');
+			            ga('send', 'pageview');
+			        }
+
+			        function loadTawkTo() {
+			            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+			            (function() {
+			                var s1 = document.createElement("script"),
+			                    s0 = document.getElementsByTagName("script")[0];
+			                s1.async = true;
+			                s1.src = 'https://embed.tawk.to/58c8ad9697fbd80a94fbba45/default';
+			                s1.charset = 'UTF-8';
+			                s1.setAttribute('crossorigin', '*');
+			                s0.parentNode.insertBefore(s1, s0);
+			            })();
+			        }
 		</script>
 	</body>
 </html>

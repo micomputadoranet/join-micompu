@@ -32,6 +32,8 @@ We're a growing community that becomes stronger every day. We invite you to be p
 
 🌎 Project developed with the latest web technologies to ensure the best experience.
 
+---
+
  ---► Español ◄---
 
 # Mi-Computadora.Net

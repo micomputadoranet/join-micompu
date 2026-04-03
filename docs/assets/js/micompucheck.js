@@ -42,6 +42,7 @@
 			const response = await fetch('https://checkpoint.mi-computadora.net/checkpoint', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
+				credentials: 'include',
 				body: JSON.stringify({
 					fp: visitorId,
 					cp: cp,
